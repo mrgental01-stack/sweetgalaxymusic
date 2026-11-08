@@ -6,7 +6,7 @@ async def main():
         for name,vp,mob in [('desktop',{'width':1440,'height':900},False),('mobile',{'width':390,'height':844},True)]:
             ctx=await b.new_context(viewport=vp,is_mobile=mob); pg=await ctx.new_page()
             await pg.goto('http://localhost:8090/',wait_until='networkidle')
-            for sec in ['watch','about','social']:
+            for sec in ['social']:
                 await pg.evaluate(f"document.getElementById('{sec}').scrollIntoView()"); await pg.wait_for_timeout(1000)
                 await pg.screenshot(path=f'shots/{name}-{sec}.png')
             await ctx.close()

@@ -120,7 +120,7 @@ section{padding:110px 0}
 @media (max-width:860px){.watch{grid-template-columns:1fr}}
 
 /* social */
-.socials{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.socials{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
 .soc{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px 22px;display:flex;flex-direction:column;gap:14px;transition:.25s}
 .soc:hover{transform:translateY(-4px);border-color:var(--c)}
 .soc .ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:var(--c)}

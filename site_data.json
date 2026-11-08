@@ -61,29 +61,50 @@
    "name": "YouTube",
    "icon": "youtube",
    "color": "#ff0033",
-   "url": "https://www.youtube.com/@mrgental",
-   "handle": "@mrgental"
+   "url": "https://www.youtube.com/@MRGENTALSweetGalaxyproduct-e3i",
+   "handle": "MRGENTAL S-G-P"
+  },
+  {
+   "name": "YouTube",
+   "icon": "youtube",
+   "color": "#ff0033",
+   "url": "https://www.youtube.com/@mr-gental-b2h",
+   "handle": "Mr-Gental"
   },
   {
    "name": "Instagram",
    "icon": "instagram",
    "color": "#d6249f",
-   "url": "https://www.instagram.com/mrgental/",
-   "handle": "@mrgental"
+   "url": "https://www.instagram.com/sweetgalaxymusic/",
+   "handle": "@sweetgalaxymusic"
+  },
+  {
+   "name": "Instagram",
+   "icon": "instagram",
+   "color": "#d6249f",
+   "url": "https://www.instagram.com/mr_gental01/",
+   "handle": "@mr_gental01"
+  },
+  {
+   "name": "Instagram",
+   "icon": "instagram",
+   "color": "#d6249f",
+   "url": "https://www.instagram.com/gental_di_instrumental/",
+   "handle": "@gental_di_instrumental"
   },
   {
    "name": "TikTok",
    "icon": "tiktok",
    "color": "#111",
-   "url": "https://www.tiktok.com/@mrgental",
-   "handle": "@mrgental"
+   "url": "https://www.tiktok.com/@gentalinstrumental",
+   "handle": "@gentalinstrumental"
   },
   {
    "name": "Facebook",
    "icon": "facebook",
    "color": "#1877f2",
-   "url": "",
-   "handle": ""
+   "url": "https://www.facebook.com/gentalinstrumental",
+   "handle": "gentalinstrumental"
   }
  ],
  "beats": [

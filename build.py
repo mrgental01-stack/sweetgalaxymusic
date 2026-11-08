@@ -36,7 +36,7 @@ lic_cards = "\n".join(f'''      <div class="card reveal{' hot' if l.get('hot') e
 socials = [s for s in D["socials"] if s.get("url")]
 soc_cards = "\n".join(f'''      <a class="soc reveal" style="--c:{s['color']}" href="{E(s['url'])}" target="_blank" rel="noopener"><span class="ic">{svg(s['icon'])}</span><b>{E(s['name'])}</b><span>{E(s['handle'])}</span></a>''' for s in socials)
 yt = next((s["url"] for s in socials if s["icon"] == "youtube"), D["store"])
-foot_soc = " ".join(f'<a href="{E(s["url"])}" target="_blank" rel="noopener" aria-label="{E(s["name"])}">{E(s["name"])}</a>' for s in socials)
+foot_soc = " ".join(f'<a href="{E(s["url"])}" target="_blank" rel="noopener" aria-label="{E(s["name"])} {E(s["handle"])}">{E(s["name"])}</a>' for s in {x["name"]: x for x in reversed(socials)}.values())
 same_as = json.dumps([s["url"] for s in socials] + [D["store"]])
 
 page = f'''<!doctype html>
