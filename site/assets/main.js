@@ -1,0 +1,20 @@
+document.documentElement.classList.add('js');
+const nav=document.querySelector('.nav'),menu=document.querySelector('.menu'),burger=document.querySelector('.burger');
+const onScroll=()=>nav.classList.toggle('scrolled',scrollY>30);onScroll();addEventListener('scroll',onScroll,{passive:true});
+burger.addEventListener('click',()=>{const o=menu.classList.toggle('open');burger.setAttribute('aria-expanded',o)});
+menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');burger.setAttribute('aria-expanded',false)}));
+const links=[...menu.querySelectorAll('a[href^="#"]')],secs=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+const spy=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-45% 0px -50% 0px'});
+secs.forEach(s=>spy.observe(s));
+const rv=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');rv.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>rv.observe(el));
+document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{
+  document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x===c));
+  const f=c.dataset.f;document.querySelectorAll('.beat').forEach(b=>b.classList.toggle('hidden',f!=='all'&&b.dataset.g!==f));
+}));
+const form=document.querySelector('#contact-form');
+form&&form.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(form);
+  const sub=encodeURIComponent(`[sweetgalaxymusic.com] ${d.get('topic')} - ${d.get('name')}`);
+  const body=encodeURIComponent(`${d.get('message')}\n\n${d.get('name')}\n${d.get('email')}`);
+  location.href=`mailto:${form.dataset.to}?subject=${sub}&body=${body}`;});
+document.querySelector('#year').textContent=new Date().getFullYear();

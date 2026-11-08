@@ -1,0 +1,196 @@
+{
+ "version": "1.0.0",
+ "brand": "Sweet Galaxy Productions",
+ "url": "https://www.sweetgalaxymusic.com",
+ "title": "Sweet Galaxy Music | Beats by MrGental - Sweet Galaxy Productions",
+ "description": "Sweet Galaxy Productions: Dancehall, Shatta, Hip-Hop and Latin beats by MrGental. Lease beats from €35 with instant delivery.",
+ "tagline": "Dancehall, Shatta, Hip-Hop and Latin beats by MrGental. Produced in Zaandam, made for artists worldwide.",
+ "store": "https://mrgental.com/#beats",
+ "email": "sweetgalaxyproductions@gmail.com",
+ "kvk": "71200843",
+ "about": [
+  "Sweet Galaxy Productions is the music label and beat studio of producer MrGental from Zaandam, the Netherlands.",
+  "We create beats with a warm Caribbean heartbeat: dancehall riddims, shatta, hip-hop, R&B and Latin vibes, ready for artists who want to stand out.",
+  "Every beat is professionally mixed and available as an affordable lease, so you can release your music fast and keep 100% of your vocals and creativity."
+ ],
+ "licenses": [
+  {
+   "name": "MP3 Lease",
+   "price": 35,
+   "desc": "Perfect for demos and first releases.",
+   "features": [
+    "High quality MP3",
+    "Streaming & online release",
+    "Instant download"
+   ]
+  },
+  {
+   "name": "WAV Lease",
+   "price": 79,
+   "desc": "Studio quality for serious releases.",
+   "features": [
+    "WAV + MP3",
+    "Streaming & online release",
+    "Music video use"
+   ]
+  },
+  {
+   "name": "Trackout Lease",
+   "price": 129,
+   "desc": "Separate tracks for your own mix.",
+   "features": [
+    "Track stems (WAV)",
+    "WAV + MP3",
+    "Full mixing control"
+   ],
+   "hot": true
+  },
+  {
+   "name": "Unlimited Lease",
+   "price": 350,
+   "desc": "No limits on streams or sales.",
+   "features": [
+    "Stems + WAV + MP3",
+    "Unlimited streams & sales",
+    "Radio, video & live shows"
+   ]
+  }
+ ],
+ "socials": [
+  {
+   "name": "YouTube",
+   "icon": "youtube",
+   "color": "#ff0033",
+   "url": "https://www.youtube.com/@mrgental",
+   "handle": "@mrgental"
+  },
+  {
+   "name": "Instagram",
+   "icon": "instagram",
+   "color": "#d6249f",
+   "url": "https://www.instagram.com/mrgental/",
+   "handle": "@mrgental"
+  },
+  {
+   "name": "TikTok",
+   "icon": "tiktok",
+   "color": "#111",
+   "url": "https://www.tiktok.com/@mrgental",
+   "handle": "@mrgental"
+  },
+  {
+   "name": "Facebook",
+   "icon": "facebook",
+   "color": "#1877f2",
+   "url": "",
+   "handle": ""
+  }
+ ],
+ "beats": [
+  {
+   "title": "Holy Bulldog Riddim3",
+   "url": "https://mrgental.com/beat/holy-bulldog-riddim3/",
+   "cover": "assets/img/beats/holy-bulldog-riddim3.webp"
+  },
+  {
+   "title": "Holy Wakka Riddim4",
+   "url": "https://mrgental.com/beat/holy-wakka-riddim4/",
+   "cover": "assets/img/beats/holy-wakka-riddim4.webp"
+  },
+  {
+   "title": "Holy Wakka Riddim123",
+   "url": "https://mrgental.com/beat/holy-wakka-riddim123/",
+   "cover": "assets/img/beats/holy-wakka-riddim123.webp"
+  },
+  {
+   "title": "Pum Pum Generations",
+   "url": "https://mrgental.com/beat/pum-pum-generations/",
+   "cover": "assets/img/beats/pum-pum-generations.webp"
+  },
+  {
+   "title": "Pum Pum Generations2",
+   "url": "https://mrgental.com/beat/pum-pum-generations2/",
+   "cover": "assets/img/beats/pum-pum-generations2.webp"
+  },
+  {
+   "title": "Real Agwaan Riddim",
+   "url": "https://mrgental.com/beat/real-agwaan-riddim/",
+   "cover": "assets/img/beats/real-agwaan-riddim.webp"
+  },
+  {
+   "title": "Real Feelings Riddim",
+   "url": "https://mrgental.com/beat/real-feelings-riddim/",
+   "cover": "assets/img/beats/real-feelings-riddim.webp"
+  },
+  {
+   "title": "Salsa Columbiana Motions",
+   "url": "https://mrgental.com/beat/salsa-columbiana-motions/",
+   "cover": "assets/img/beats/salsa-columbiana-motions.webp"
+  },
+  {
+   "title": "Sea Arabic Gyal",
+   "url": "https://mrgental.com/beat/sea-arabic-gyal/",
+   "cover": "assets/img/beats/sea-arabic-gyal.webp"
+  },
+  {
+   "title": "Sea Gods In Motion",
+   "url": "https://mrgental.com/beat/sea-gods-in-motion/",
+   "cover": "assets/img/beats/sea-gods-in-motion.webp"
+  },
+  {
+   "title": "Sea Grip Riddim",
+   "url": "https://mrgental.com/beat/sea-grip-riddim/",
+   "cover": "assets/img/beats/sea-grip-riddim.webp"
+  },
+  {
+   "title": "Sea Grapes Riddim",
+   "url": "https://mrgental.com/beat/sea-grapes-riddim/",
+   "cover": "assets/img/beats/sea-grapes-riddim.webp"
+  },
+  {
+   "title": "Sea Grip Riddim2",
+   "url": "https://mrgental.com/beat/sea-grip-riddim2/",
+   "cover": "assets/img/beats/sea-grip-riddim2.webp"
+  },
+  {
+   "title": "Shatta Madness 2",
+   "url": "https://mrgental.com/beat/shatta-madness-2/",
+   "cover": "assets/img/beats/shatta-madness-2.webp"
+  },
+  {
+   "title": "Shatta Madness 3",
+   "url": "https://mrgental.com/beat/shatta-madness-3/",
+   "cover": "assets/img/beats/shatta-madness-3.webp"
+  },
+  {
+   "title": "Surinamviber",
+   "url": "https://mrgental.com/beat/surinamviber/",
+   "cover": "assets/img/beats/surinamviber.webp"
+  },
+  {
+   "title": "Major Major Hiphopbeat2023",
+   "url": "https://mrgental.com/beat/major-major-hiphopbeat2023/",
+   "cover": "assets/img/beats/major-major-hiphopbeat2023.webp"
+  },
+  {
+   "title": "New Gorilla Riddim3",
+   "url": "https://mrgental.com/beat/new-gorilla-riddim3/",
+   "cover": "assets/img/beats/new-gorilla-riddim3.webp"
+  },
+  {
+   "title": "Club Hiphopbeat133",
+   "url": "https://mrgental.com/beat/club-hiphopbeat133/",
+   "cover": "assets/img/beats/club-hiphopbeat133.webp"
+  },
+  {
+   "title": "Jump Up We Party",
+   "url": "https://mrgental.com/beat/jump-up-we-party/",
+   "cover": "assets/img/beats/jump-up-we-party.webp"
+  },
+  {
+   "title": "Meditations R&B Flav",
+   "url": "https://mrgental.com/beat/meditations-rb-flav/",
+   "cover": "assets/img/beats/meditations-rb-flav.webp"
+  }
+ ]
+}
